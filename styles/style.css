@@ -27,6 +27,28 @@
     }
     
 
+    .main{
+        max: width 960px; ;
+        font-size: 0 auto  ;
+        margin: 1em;
+    }
+
+
+    .h1{
+        font: size 4rem; ;
+        font-weight: extra-bold;
+
+    }
+
+
+    .img-fluid {
+        width: 100px; ;
+        display:block ;
+        
+    }
+
+
+
     .header{
             background-image: url("../images/header-2560w.webp");
             background-size: cover;
@@ -34,15 +56,46 @@
             background-color: var(--header-bg-color);
             color: var(--header-text-color);
             line-height: 1.5;
+            padding: 1em;
     }
     .header_nav {
         text-align: center;
-
    
     }
     .header__link {
         display: inline-block;
         margin-top: 1em;
     }
-}
 
+
+    .header__intro {
+        margin-top: 10vh;
+    }
+
+
+    .button {
+        display: inline-block;
+        border-radius: .5rem;
+        padding: 0.75em 2em;
+    }
+
+
+    .button--light {
+        background-color: var(--secundary-color);
+        color: var(--text-color);
+    }
+
+
+    .img-block {
+        margin: 0;
+    }
+
+
+    .img-block_caption  {
+        margin.top: 0.5em;
+        text-alighn: center;
+    }
+
+
+
+    }
