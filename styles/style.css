@@ -13,12 +13,17 @@
         --secundary-color: light-dark(#fff, #fff);
         --text-color: light-dark(#000, #fff);
         --bg-color: light-dark(#fff, #000);
+        --img-caption-color: light-dark (red, red);              /* (#3B3E40, #3B3E40);     */
     }
+
+
     html {
            font-family:"Open Sans", sans-serif;
            font-size: 100%; /* default: 16px */
            color: var(--text-color);
     }
+
+
     body{
         background-color: var();
 
@@ -28,9 +33,9 @@
     
 
     .main{
-        max: width 960px; ;
-        font-size: 0 auto  ;
-        margin: 1em;
+        max-width: 960px;
+        margin: 0 auto  ;
+        font-size: 1em;
     }
 
 
@@ -42,11 +47,10 @@
 
 
     .img-fluid {
-        width: 100px; ;
+        width: 100%; ;
         display:block ;
         
     }
-
 
 
     .header{
@@ -58,10 +62,14 @@
             line-height: 1.5;
             padding: 1em;
     }
+
+
     .header_nav {
         text-align: center;
    
     }
+
+
     .header__link {
         display: inline-block;
         margin-top: 1em;
@@ -91,10 +99,23 @@
     }
 
 
-    .img-block_caption  {
-        margin.top: 0.5em;
-        text-alighn: center;
+    .img-block_caption {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 14px;
+        padding: ;
+        color: var(--img-caption-color);
     }
+
+
+    .header__image {
+        text-align: center;
+
+    }
+
+
+
+
 
 
 
