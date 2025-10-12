@@ -13,7 +13,7 @@
         --secundary-color: light-dark(#fff, #fff);
         --text-color: light-dark(#000, #fff);
         --bg-color: light-dark(#fff, #000);
-        --img-caption-color: light-dark (red, red);              /* (#3B3E40, #3B3E40);     */
+        --img-caption-color: light-dark (red, red);         /* (#3B3E40, #3B3E40);     */
     }
 
 
@@ -103,7 +103,7 @@
         margin-top: 0.5em;
         text-align: center;
         font-size: 14px;
-        padding: ;
+        /* padding:ˇ..... ; */
         color: var(--img-caption-color);
     }
 
@@ -114,7 +114,18 @@
     }
 
 
+    .info-block_title {
+        
 
+    }
+
+
+    .info-block {
+        margin:auto;
+        padding: 36px;
+        
+
+    }
 
 
 
